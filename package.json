@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.13.8",
+    "@stellar/stellar-sdk": "^13.1.0",
+    "axios": "^1.8.4",
     "hono": "^4.7.2"
   }
 }

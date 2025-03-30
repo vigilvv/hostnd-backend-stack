@@ -1,7 +1,10 @@
 import { Hono } from "hono";
 import { serve } from "@hono/node-server";
+import { createAndFundWallet } from "./createAndFundWallet.js";
 
 const app = new Hono();
+
+// createAndFundWallet();
 
 app.get("/", (c) => c.text("Hello, Hono with Node.js! 🚀"));
 
